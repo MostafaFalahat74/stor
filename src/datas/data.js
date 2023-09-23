@@ -1,4 +1,4 @@
-export default data = [
+const data = [
   {
     name: "کت تک مردانه لیورجی مدل IAN336525",
     image1: "1-1",
@@ -63,3 +63,4 @@ export default data = [
     brand: "جی تی هوگرو",
   },
 ];
+export default data;

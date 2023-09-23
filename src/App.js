@@ -1,10 +1,12 @@
 import Header from "./components/Header";
 import Body from "./components/Body";
+import data from './datas/data';
 function App() {
+  console.log(data);
   return (
     <div className="container">
       <Header />
-      <Body />
+      <Body data={data} />
     </div>
   );
 }
