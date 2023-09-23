@@ -1,3 +1,7 @@
+import { GrLanguage } from "react-icons/gr";
+import { FiSearch } from "react-icons/fi";
+import {GoPerson } from "react-icons/go";
+import { GiSelfLove } from "react-icons/gi";
 const Header = () => {
   return (
     <div className="header">
@@ -8,10 +12,10 @@ const Header = () => {
       </div>
       <span>SHOPY</span>
       <div className="headr-icons">
-        <span>2</span>
-        <span>20</span>
-        <span>2</span>
-        <span>2</span>
+        <span><GrLanguage /></span>
+        <span><FiSearch /></span>
+        <span><GoPerson /></span>
+        <span><GiSelfLove /></span>
       </div>
     </div>
   );
