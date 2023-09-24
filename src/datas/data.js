@@ -11,7 +11,7 @@ const data = [
     image1: "2-1.jpg",
     image1: "2-2.jpg",
     price: "۱۵۵۰۰۰۰",
-    brand: "لیورجی ",
+    brand: "لیورجی",
   },
   {
     name: "کت تک مردانه لیورجی مدل 2022",
@@ -25,7 +25,7 @@ const data = [
     image1: "4-1.jpg",
     image1: "4-2.jpg",
     price: "۵۹۸۰۰۰۰",
-    brand: "مانگو ",
+    brand: "مانگو",
   },
   {
     name: "کت تک مردانه مانگو مدل 53000483",

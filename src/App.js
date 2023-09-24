@@ -1,12 +1,17 @@
 import Header from "./components/Header";
 import Body from "./components/Body";
-import data from './datas/data';
+import data from "./datas/data";
+import { useEffect } from "react";
+
 function App() {
-  console.log(data);
+  var filterData="a";
+  useEffect(() => {
+     filterData=[...new Set(data.map((item)=>item.brand))];
+  }, []);
   return (
     <div className="container">
       <Header />
-      <Body data={data} />
+      <Body data={data} filterData={filterData} />
     </div>
   );
 }

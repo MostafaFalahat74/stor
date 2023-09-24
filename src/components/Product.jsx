@@ -1,5 +1,4 @@
 const Product = ({ name, price, image }) => {
-  console.log(`./../datas/images/${image}`);
   return (
     <div className="product">
       <div className="image-container">
