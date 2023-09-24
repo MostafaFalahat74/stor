@@ -5,6 +5,7 @@ const Products =({data})=>{
         data.map((product , index)=><Product
          name={product.name}
          price={product.price}
+         image={product.image1}
           key={index}/>)
     }
     </div>)
